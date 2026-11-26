@@ -1,10 +1,18 @@
 # Xujing · AI Short Drama Studio
 
-[简体中文](README.md)
+[**Download the Windows x64 installer**](https://github.com/chenzf534403209/xujing-studio/releases/download/v3.1.1/Xujing-Setup-3.1.1-win-x64.exe) · [Release notes](https://github.com/chenzf534403209/xujing-studio/releases/tag/v3.1.1) · [简体中文](README.md)
 
 ![Xujing poster showing two timeline anchors, six continuity checks and single-shot retakes.](assets/xujing-promo-en.png)
 
 Xujing is a Windows desktop workspace for producing multi-episode AI short dramas. Plan scenes, build shot cards, render with a local MiniMax H3 service, and review the results against the episode's actual edit.
+
+## Install on Windows
+
+1. Run the Windows x64 installer and select English or Simplified Chinese. Setup installs for the current user and includes the .NET 10 Desktop Runtime.
+2. Open Xujing from the Start menu. Xujing-cli.exe and the desktop app share %LOCALAPPDATA%\Xujing\Workspace. Uninstalling keeps that workspace.
+3. Configure your local MiniMax H3 service for generation and FFmpeg for editing and export. Install H3, FFmpeg and any model weights separately.
+
+The installer is unsigned. Use the SHA-256 checksum supplied on the release page to verify your download.
 
 ## What you can do
 

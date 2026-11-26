@@ -1,6 +1,6 @@
 # 续镜 · AI 短剧制作台
 
-[English](README.en.md)
+[**下载 Windows x64 安装包**](https://github.com/chenzf534403209/xujing-studio/releases/download/v3.1.1/Xujing-Setup-3.1.1-win-x64.exe) · [发行说明](https://github.com/chenzf534403209/xujing-studio/releases/tag/v3.1.1) · [English](README.en.md)
 
 ![续镜宣传图。2 个实际剪点锚点、6 项连续性检查，返修 1 镜后复核相邻 2 个剪点。](assets/xujing-promo.png)
 
@@ -9,6 +9,14 @@
 - **按实际剪点续拍。** 选择双端接拍时，可用上一镜实际末帧和下一镜实际入点约束中间镜头。提交前可查两端的采用版本和帧号。
 - **生成前核对六项连续性。** 本机模型对照上一镜实际末帧与本镜开场，逐项检查站位、视线、左右手、道具和光线。冲突和看不清的地方会单独提示，由制作者确认。
 - **只重做有问题的镜头。** 在三段连播中把问题标到具体帧及验收项。换入中间镜头的新候选后，复核左右两个剪点，还可追查下一镜是否用了旧版片尾。
+
+## 安装与首次启动
+
+1. 运行 Windows x64 安装包，在向导里选择简体中文或英文。安装面向当前用户，内含 .NET 10 桌面运行时。
+2. 从开始菜单打开续镜。安装目录中的 Xujing-cli.exe 与桌面版共用 %LOCALAPPDATA%\Xujing\Workspace。卸载后保留该工作区。
+3. 生成时在本机设置中配置 MiniMax H3。剪辑和导出时配置 FFmpeg。H3、FFmpeg 和模型权重单独准备。
+
+安装包尚未进行代码签名。可用 Release 页面提供的 SHA-256 检查下载文件。
 
 ## 和市面工具放在一起看
 
